@@ -1,7 +1,5 @@
 # SS17_HW04 - Chống Cache Stampede với thuộc tính sync
 
-**Sinh viên:** Trương Hà Cẩm Linh - **Mã sinh viên:** PTIT056
-
 ## 1. Vấn đề Cache Stampede
 
 Khi key của một sản phẩm bán chạy hết hạn, nhiều request có thể cùng nhận cache miss. Nếu không đồng bộ, mỗi request đều chạy truy vấn nặng xuống database. Với 50 request và truy vấn mất 2 giây, database phải xử lý 50 truy vấn gần như cùng lúc, dễ làm cạn connection pool và tăng CPU.
