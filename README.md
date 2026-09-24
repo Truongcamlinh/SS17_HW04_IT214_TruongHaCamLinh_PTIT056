@@ -55,6 +55,10 @@ Trong log chỉ có đúng một dòng:
 Fetching from Database for product 1
 ```
 
+### Ảnh chụp kết quả 50 request đồng thời
+
+![Kết quả kiểm thử Cache Stampede](screenshots/concurrent-test.png)
+
 ## 5. So sánh sync false và sync true
 
 | Tiêu chí | Không có `sync = true` | Có `sync = true` |
